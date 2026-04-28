@@ -1,0 +1,9 @@
+INSERT INTO products("name","category","quantity","price")
+VALUES
+    ('Olma','Meva',50,5000),
+    ('Non','Oziq-ovqat',30,3000),
+    ('Sut','Ichimlik',20,8000),
+    ('Telefon','Texnika',10,1500000),
+    ('Noutbuk','Texnika',5,7000000);
+	
+SELECT * FROM products;

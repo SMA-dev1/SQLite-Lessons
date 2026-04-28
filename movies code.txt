@@ -1,0 +1,10 @@
+DELETE FROM movies;
+INSERT INTO movies ("id", "title", "genre", "release_year", "rating")
+VALUES 
+     (1, 'The Shawshank Redemption', 'Drama', 1994, 9.3),
+     (2, 'The Godfather', 'Crime', 1972, 9.2),
+     (3, 'Interstellar', 'Sci-Fi', 2014, 8.7),
+     (4, 'Parasite', 'Thriller', 2019, 8.5),
+     (5, 'Spirited Away', 'Animation', 2001, 8.6);
+
+SELECT * FROM movies;

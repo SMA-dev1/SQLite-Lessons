@@ -1,0 +1,8 @@
+INSERT INTO orders("customer_name","product_name","quantity","order_date")
+VALUES
+    ('Ali Valiyev', 'Olma', 3, '2026-04-20'),
+    ('Dilshod Karimov', 'Non', 5, '2026-04-21'),
+    ('Malika Saidova', 'Sut', 2, '2026-04-22'),
+    ('Jasur Tursunov', 'Telefon', 1, '2026-04-23'),
+    ('Nodira Rahimova', 'Noutbuk', 1, '2026-04-24');
+SELECT * FROM orders;

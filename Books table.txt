@@ -1,0 +1,8 @@
+INSERT INTO books("title","author","year","price")
+VALUES
+      ('Hayrat ul-Abror','Alisher Navoiy',1484,80000),
+      ('Farhod va Shirin','Alisher Navoiy',1485,90000),
+      ('Layli va Majnun','Alisher Navoiy',1485,80000),
+      ('Sab`ai sayyor','Alisher Navoiy',1485,85000),
+      ('Saddi Iskandariy','Alisher Navoiy',1485,100000);
+SELECT * FROM books;
